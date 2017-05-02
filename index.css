@@ -1,0 +1,153 @@
+body
+{
+   background-color: transparent;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#MenuBar2
+{
+   background-color: #E31414;
+   border: 0;
+}
+.ThemeMenuBar2Menu,
+.ThemeMenuBar2SubMenuTable
+{
+   font-family: Tahoma;
+   font-weight: bold;
+   font-size: 27px;
+   color: #FFFFFF;
+   text-align: left;
+   padding: 0;
+   cursor: pointer;
+}
+.ThemeMenuBar2MenuOuter
+{
+   background-color: #E31414;
+   border: 0;
+}
+.ThemeMenuBar2SubMenu
+{
+   position: absolute;
+   visibility: hidden;
+   border: 0;
+   padding: 0;
+   border: 4px solid #000000;
+}
+.ThemeMenuBar2Menu td
+{
+   padding: 15px 0px 5px 0px;
+}
+.ThemeMenuBar2SubMenuTable
+{
+   color: #FFFFFF;
+   text-align: left;
+   background-color: #E31414;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+}
+.ThemeMenuBar2SubMenuTable td
+{
+   white-space: nowrap;
+}
+.ThemeMenuBar2MainItem
+{
+}
+.ThemeMenuBar2MainItem,
+.ThemeMenuBar2MainItemHover,
+.ThemeMenuBar2MainItemActive,
+.ThemeMenuBar2MenuItem,
+.ThemeMenuBar2MenuItemHover,
+.ThemeMenuBar2MenuItemActive
+{
+   white-space: nowrap;
+}
+.ThemeMenuBar2MenuItem
+{
+}
+.ThemeMenuBar2MainItemHover,
+.ThemeMenuBar2MainItemActive
+{
+   color: #FFFFFF;
+   background-color: #2A4094;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+}
+.ThemeMenuBar2MenuItemHover,
+.ThemeMenuBar2MenuItemActive
+{
+   color: #FFFFFF;
+   background-color: #2A4094;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+}
+.ThemeMenuBar2MainItem .ThemeMenuBar2MainItemText,
+.ThemeMenuBar2MainItem .ThemeMenuBar2MainFolderText
+{
+   border: 3px solid transparent;
+}
+.ThemeMenuBar2MainItemHover .ThemeMenuBar2MainItemText,
+.ThemeMenuBar2MainItemActive .ThemeMenuBar2MainItemText,
+.ThemeMenuBar2MainItemHover .ThemeMenuBar2MainFolderText,
+.ThemeMenuBar2MainItemActive .ThemeMenuBar2MainFolderText
+{
+   border: 3px solid #000000;
+}
+.ThemeMenuBar2MenuFolderLeft,
+.ThemeMenuBar2MenuFolderRight,
+.ThemeMenuBar2MenuItemLeft,
+.ThemeMenuBar2MenuItemRight
+{
+   padding: 15px 0px 5px 0px;
+}
+td.ThemeMenuBar2MainFolderText,
+td.ThemeMenuBar2MainItemText
+{
+   padding: 15px 10px 5px 10px;
+}
+.ThemeMenuBar2MenuFolderText,
+.ThemeMenuBar2MenuItemText
+{
+   padding: 3px 5px 3px 5px;
+}
+.ThemeMenuBar2MenuItem .ThemeMenuBar2MenuFolderText,
+.ThemeMenuBar2MenuItem .ThemeMenuBar2MenuItemText
+{
+   border: 4px solid transparent;
+}
+.ThemeMenuBar2MenuItemHover .ThemeMenuBar2MenuFolderText,
+.ThemeMenuBar2MenuItemActive .ThemeMenuBar2MenuFolderText,
+.ThemeMenuBar2MenuItemHover .ThemeMenuBar2MenuItemText,
+.ThemeMenuBar2MenuItemActive .ThemeMenuBar2MenuItemText
+{
+   border: 4px solid #000000;
+}
+td.ThemeMenuBar2MenuSplit
+{
+   overflow: hidden;
+   background-color: inherit;
+}
+div.ThemeMenuBar2MenuSplit
+{
+   height: 1px;
+   margin: 0;
+   overflow: hidden;
+   background-color: inherit;
+   border-top: 1px solid #2A4094;
+}
+.ThemeMenuBar2MenuVSplit
+{
+   display: block;
+   width: 1px;
+   margin: 0 12px 0 12px;
+   overflow: hidden;
+   background-color: inherit;
+   border-right: 1px solid #2A4094;
+}
